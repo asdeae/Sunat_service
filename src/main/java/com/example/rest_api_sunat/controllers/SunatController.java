@@ -14,6 +14,13 @@ import java.text.ParseException;
 public class SunatController {
 
 
+
+    @RequestMapping("/")
+    public String hello()
+    {
+        return "Api de la sunat realizada para desarrolladores";
+    }
+
     @RequestMapping("/cambio")
     public PruebaTCambio getCambio(@RequestParam(value = "fecha" ,defaultValue = "") String fecha) throws MalformedURLException, ParseException {
         return new Algoritmo().dolares_a_soles(fecha);
