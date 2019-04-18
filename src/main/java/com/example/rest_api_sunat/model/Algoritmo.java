@@ -10,7 +10,6 @@ import java.net.URL;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.logging.Logger;
 
 public class Algoritmo {
     //private Logger logger = (Logger) LoggerFactory.getLogger(this.getClass());

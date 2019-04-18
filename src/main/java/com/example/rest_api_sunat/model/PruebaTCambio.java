@@ -18,11 +18,5 @@ public class PruebaTCambio {
         this.venta = venta;
     }
 
-
-/*
-    @Override
-    public String toString() {
-        return "PruebaTCambio [compra=" + compra + ", venta=" + venta + "]";
-    }*/
 }
 
